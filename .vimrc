@@ -17,6 +17,11 @@ set tw=79
 set colorcolumn=80
 highlight ColorColumn ctermbg=2
 
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+
 "" Toggle relative line number
 function! NumberToggle()
     if(&relativenumber)
