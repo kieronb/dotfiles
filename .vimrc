@@ -42,3 +42,6 @@ endfunc
 
 nnoremap <C-n> :call NumberToggle()<cr>
 map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAK<C-c>
+
+" set the colorscheme to desert to suit a dark background
+colorscheme desert
